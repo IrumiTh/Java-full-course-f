@@ -1,15 +1,31 @@
-import javax.swing.JOptionPane;
+
 public class Main {
 
 	public static void main(String[] args) {
-		String name = JOptionPane.showInputDialog("Enter your name:");
-		JOptionPane.showMessageDialog(null, "Hello," +name);
+		double x = 3.14;
+		double y = -10;
+		int q = 10;
 		
-		int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age:"));
-		JOptionPane.showMessageDialog(null, "You are " +age+" years old");
-
-		double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height:"));
-		JOptionPane.showMessageDialog(null, "You are " +height+" cm tall");
+		double z = Math.min(x, y);
+		System.out.println(z);
+		
+		z = Math.max(x, y);
+		System.out.println(z);
+		
+		z = Math.abs(y);
+		System.out.println(z);
+		
+		z = Math.sqrt(q);
+		System.out.println(z);
+		
+		z = Math.round(x);
+		System.out.println(z);
+		
+		z = Math.ceil(x);
+		System.out.println(z);
+		
+		z = Math.floor(x);
+		System.out.println(z);
 	}
 
 }
