@@ -2,8 +2,22 @@
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("I love pizza");
-		System.out.println("It's realy good");
+		int x = 123;
+		long y = 123454335675445L;
+		byte z = 100;
+		double q= 3.14;
+		boolean w = true;
+		char symbol = '@';
+		String name = "irumi";
+		
+
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		System.out.println(q);
+		System.out.println(w);
+		System.out.println(name);
+		System.out.println(symbol);
 		
 		//this is the comment
 
