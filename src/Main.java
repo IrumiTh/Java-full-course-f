@@ -2,24 +2,20 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		String name = "    irumi    ";
+		//boolean result = name.equals("irumi");
+		//boolean result = name.equalsIgnoreCase("Irumi");
+		//int result = name.length();
+		//char  result = name.charAt(0);
+		//int result = name.indexOf("i");
+		//String result = name.toUpperCase();
+		//String result = name.trim();
+		String result = name.replace('i','I');
 		
-		String[][]  names = new String[2][2];
-		for (int i=0 ; i<2 ; i++ ) {
-			for(int j=0 ; j<2 ; j++ ) {
-				System.out.print("Enter a name: ");
-				names[i][j]= scanner.next();
-				
-			}
-		}
 		
-		for (int i=0 ; i<names.length ; i++ ) {
-			System.out.println();
-			for(int j=0 ; j<names[i].length ; j++ ) {
-				System.out.print(names[i][j] + " ");
-				
-			}
-		}
+		
+		System.out.print(result);
+		
 		
 		
 	}
