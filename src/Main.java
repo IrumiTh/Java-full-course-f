@@ -1,22 +1,21 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		String name = "    irumi    ";
-		//boolean result = name.equals("irumi");
-		//boolean result = name.equalsIgnoreCase("Irumi");
-		//int result = name.length();
-		//char  result = name.charAt(0);
-		//int result = name.indexOf("i");
-		//String result = name.toUpperCase();
-		//String result = name.trim();
-		String result = name.replace('i','I');
+		
+		ArrayList<Integer> Numbers = new ArrayList<Integer>();
+		Numbers.add(23);
+		Numbers.add(40);
+		Numbers.add(57);
+		
+		Numbers.set(0, 80);
+		Numbers.remove(0);
 		
 		
-		
-		System.out.print(result);
-		
-		
+		for(int i=0; i< Numbers.size();i++) {
+			System.out.println(Numbers.get(i));
+		}
 		
 	}
 
