@@ -2,31 +2,19 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
+		/* Array
+		String[] animals = {"cat", "dog", "rat" , "bird"};
+		*/
 		
-		ArrayList<ArrayList<String>> groceryList = new ArrayList();
+		ArrayList<String> animals = new ArrayList<String>();
+		animals.add("cat");
+		animals.add("dog");
+		animals.add("rat");
+		animals.add("bird");
 		
-		
-		ArrayList<String> bakeryList= new ArrayList();
-		bakeryList.add("pasta");
-		bakeryList.add("garlic bread");
-		bakeryList.add("donuts");
-		
-		ArrayList<String> produceList= new ArrayList();
-		produceList.add("tomato");
-		produceList.add("zuchini");
-		produceList.add("peppers");
-		
-		
-		ArrayList<String> drinkList= new ArrayList();
-		drinkList.add("soda");
-		drinkList.add("tea");
-		
-		
-		groceryList.add(bakeryList);
-		groceryList.add(produceList);
-		groceryList.add(drinkList);
-		
-		System.out.print(groceryList);
+		for(String i : animals) {
+			System.out.println(i);
+		}
 		
 	}
 
