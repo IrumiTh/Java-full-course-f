@@ -3,16 +3,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.printf("this is a format string %d", 123);
+		Car mycar = new Car();
+		System.out.println(mycar.model);
+		System.out.println(mycar.make);
+		System.out.println(mycar.year);
+		mycar.drive();
+		mycar.brake();
 		
-		boolean myboolean = true;
-		char mychar = '@';
-		String name = "irumi";
-		double mydouble = 3.14;
 		
-		System.out.printf("boolean is %b", myboolean);
-		System.out.printf(" %c", mychar);
-		System.out.printf(" %s", name);
+		Car mycar2 = new Car();
+		mycar2.brake();
+		System.out.println(mycar2.price);
+		
 		
 	}
 	
