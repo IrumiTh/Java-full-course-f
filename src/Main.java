@@ -1,21 +1,26 @@
-import java.util.ArrayList;
+
 public class Main {
 
 	public static void main(String[] args) {
-		/* Array
-		String[] animals = {"cat", "dog", "rat" , "bird"};
-		*/
 		
-		ArrayList<String> animals = new ArrayList<String>();
-		animals.add("cat");
-		animals.add("dog");
-		animals.add("rat");
-		animals.add("bird");
+		String name = "IRUMI";
+		int age = 23;
+		hello(name, age);
 		
-		for(String i : animals) {
-			System.out.println(i);
-		}
 		
+		int x=3;
+		int y=4;
+		System.out.println(sum(x,y));
+		
+		
+	}
+	static void hello(String name, int a) {
+		System.out.println("Hello, "+name);
+		System.out.println("you are "+a);
+	}
+	
+	static int sum(int x, int y) {
+		return (x+y);
 	}
 
 }
